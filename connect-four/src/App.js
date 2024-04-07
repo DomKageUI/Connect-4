@@ -93,7 +93,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Connect Four</h1>
+      <h1>Dom's Connect Four</h1>
       {!winner && <p>Current Player: {currentPlayer}</p>}
       {winner && <p>Winner: {winner}</p>}
       <div className="board">{renderBoard()}</div>
